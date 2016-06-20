@@ -12,7 +12,6 @@
 		6544F44E1D136A730014C068 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6544F44C1D136A730014C068 /* Main.storyboard */; };
 		6544F4501D136A730014C068 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6544F44F1D136A730014C068 /* Assets.xcassets */; };
 		6544F4531D136A730014C068 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6544F4511D136A730014C068 /* LaunchScreen.storyboard */; };
-		6544F45E1D136A730014C068 /* SchemingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6544F45D1D136A730014C068 /* SchemingTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,8 +33,6 @@
 		6544F4521D136A730014C068 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6544F4541D136A730014C068 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6544F4591D136A730014C068 /* SchemingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SchemingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		6544F45D1D136A730014C068 /* SchemingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SchemingTests.swift; sourceTree = "<group>"; };
-		6544F45F1D136A730014C068 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,7 +57,6 @@
 			isa = PBXGroup;
 			children = (
 				6544F4471D136A730014C068 /* Scheming */,
-				6544F45C1D136A730014C068 /* SchemingTests */,
 				6544F4461D136A720014C068 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -85,15 +81,6 @@
 				6544F4541D136A730014C068 /* Info.plist */,
 			);
 			path = Scheming;
-			sourceTree = "<group>";
-		};
-		6544F45C1D136A730014C068 /* SchemingTests */ = {
-			isa = PBXGroup;
-			children = (
-				6544F45D1D136A730014C068 /* SchemingTests.swift */,
-				6544F45F1D136A730014C068 /* Info.plist */,
-			);
-			path = SchemingTests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -208,7 +195,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6544F45E1D136A730014C068 /* SchemingTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -279,7 +265,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -319,7 +305,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -332,8 +318,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Scheming/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.iNexi.Scheming;
+				PRODUCT_BUNDLE_IDENTIFIER = com.iNexi.Scheme;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -343,8 +330,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Scheming/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.iNexi.Scheming;
+				PRODUCT_BUNDLE_IDENTIFIER = com.iNexi.Scheme;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -392,6 +380,7 @@
 				6544F4641D136A730014C068 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6544F4651D136A730014C068 /* Build configuration list for PBXNativeTarget "SchemingTests" */ = {
 			isa = XCConfigurationList;
@@ -400,6 +389,7 @@
 				6544F4671D136A730014C068 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
