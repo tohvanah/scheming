@@ -3,7 +3,6 @@
 //  Scheming
 //
 //  Created by Daniel on 6/16/16.
-//  Copyright © 2016 iNexi. All rights reserved.
 //
 
 import UIKit
