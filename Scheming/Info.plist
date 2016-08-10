@@ -24,7 +24,7 @@
 			<key>CFBundleTypeRole</key>
 			<string>Editor</string>
 			<key>CFBundleURLName</key>
-			<string>com.iNexi.Scheming</string>
+			<string>com.FMPsquare.Scheming</string>
 			<key>CFBundleURLSchemes</key>
 			<array>
 				<string>scheming</string>
